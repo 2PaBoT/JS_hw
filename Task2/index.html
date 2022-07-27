@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HomeWork</title>
+</head>
+<body>
+<script>
+    // - Створити масив, наповнити його 10 елементами будь-якого типу, вивести кожен елемент в консоль
+
+    let mass = [
+        ['name', 'surname', 'lastname'],
+        ['day', 'month', 'year'],
+        ['region', 'city', 'street', 'house']
+    ];
+    console.log(mass[0][0]);
+    console.log(mass[0][1]);
+    console.log(mass[0][2]);
+    console.log(mass[1][0]);
+    console.log(mass[1][1]);
+    console.log(mass[1][2]);
+    console.log(mass[2][0]);
+    console.log(mass[2][1]);
+    console.log(mass[2][2]);
+    console.log(mass[2][3]);
+    console.log(mass);
+
+    // - Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre.
+
+    let books = [
+        {
+            title: 'Screamers',
+            pageCount: 589,
+            genre: 'fantastic'
+        },
+
+        {
+            title: 'Maze Runner',
+            pageCount: 441,
+            genre: 'fantastic'
+        },
+
+        {
+            title: 'Predator',
+            pageCount: 373,
+            genre: 'action'
+        }
+    ];
+    console.log(books);
+
+
+    // - Створити 3 об'єкти які описують книги. Поля об'єкту : title ,pageCount, genre, authors. Поле "автори"
+    // - масив. Кожен автор має поля name,age
+
+    let books1 = [
+        {
+            title: 'Screamers',
+            pageCount: 589,
+            genre: 'fantastic',
+            authors: {name:'FFF', age:25}
+        },
+
+        {
+            title: 'Maze Runner',
+            pageCount: 441,
+            genre: 'fantastic',
+            authors: {name:'xxx', age:27}
+        },
+
+        {
+            title: 'Predator',
+            pageCount: 373,
+            genre: 'action',
+            authors: {name:'zzz', age:46}
+        }
+    ];
+    console.log(books1);
+
+
+    // - Створити масив з 10 об'єктами які описують сутніть "користувач". Поля: name, username,password.
+    // Вивести в консоль пароль кожного користувача
+
+    let users = [
+        {name: 'Ad', userName: 'quick', password: 'qwerty'},
+        {name: 'Ben', userName: 'fast', password: 'asdfgh'},
+        {name: 'Cliff', userName: 'slow', password: 'QWErty'},
+        {name: 'Daniel', userName: 'thin', password: 'qweRTY'},
+        {name: 'Evgen', userName: 'fat', password: 'ASDfgh'},
+        {name: 'Frank', userName: 'small', password: 'asdFGH'},
+        {name: 'Gilli', userName: 'tall', password: 'zxcvbn'},
+        {name: 'Hanna', userName: 'bad', password: 'ZXCvbn'},
+        {name: 'Igor', userName: 'lucky', password: 'zxcVBN'},
+        {name: 'Jhon', userName: '2Pac', password: 'ZXCVBN'}
+    ];
+    console.log(users[0].password);
+    console.log(users[1].password);
+    console.log(users[2].password);
+    console.log(users[3].password);
+    console.log(users[4].password);
+    console.log(users[5].password);
+    console.log(users[6].password);
+    console.log(users[7].password);
+    console.log(users[8].password);
+    console.log(users[9].password);
+    console.log(users);
+
+</script>
+</body>
+</html>
