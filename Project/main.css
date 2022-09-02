@@ -1,0 +1,98 @@
+body{
+    background: white;
+}
+.userContainer{
+    width: 100%;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 20px;
+    row-gap: 20px;
+}
+.userInfo {
+    width: 49%;
+    height: 100px;
+    border: 1px solid black;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    background: #DBDCDD;
+}
+.info {
+    margin: 5px;
+    padding: 5px;
+    border:1px solid black;
+    background: white;
+}
+
+.userDetails{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.postButton{
+    width: 90%;
+    margin: 5px;
+}
+.postBox{
+    margin-top:10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 8px;
+    row-gap:8px;
+
+}
+.postDiv{
+    width:19%;
+    border: 1px solid black;
+    border-radius: 25px;
+    box-sizing: border-box;
+    height: 90px;
+    padding: 10px;
+    background: grey;
+}
+/*   post-details.html - блок з інфою про пост зверху. Коментарі - по 4 в ряд.*/
+/*   Всі елементи котрі характеризують users, posts, comments візуалізувати, так, щоб було видно що це блоки*/
+/*   (дати фон. марджини і тд)*/
+.postContainer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.postDataBox{
+    text-align: center;
+}
+.postElement{
+    width: 100%;
+    text-align: start;
+}
+.postComment{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 15px;
+    row-gap: 10px;
+
+}
+.postCom{
+    width: 24%;
+    height: 280px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 0;
+    background: yellow;
+}
+.postCome{
+    display: flex;
+    flex-direction: column;
+    margin: 5px;
+}
